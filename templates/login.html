@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Login</title>
+{% endblock %}
+
+{% block body %}
+    <h1 style="text-align: center">Login</h1>
+    <div class="container">
+        <div class="col-xs-12">
+            <a class="btn btn-primary" href="/">Voltar pra Home</a>
+        </div>
+        <br>
+        <form action="" method="post">
+            <div class="col-xs-12">
+                <input type="email" id="email" name="email" placeholder="email" class="form-control">
+                <br>
+                <input type="password" id="password" name="password" placeholder="password" class="form-control">
+                <br>
+                <div class="col-xs-12">
+                    <button type="submit" class="btn btn-block btn-success">Logar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}

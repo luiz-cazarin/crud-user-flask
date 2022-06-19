@@ -9,4 +9,13 @@ As seguintes tecnologias foram usadas
 - [Sqlite] (https://www.sqlite.org/index.html)
 - [MySQL] (https://www.mysql.com/)
 
+Rotas para teste, use a propria interface para testar
+- /users
+- /user/id
+- /add_user
+- /edit_user/id
+- /delete_user/
+- /login
+- /logout
+
 Voce pode alterar o banco e testar localmente descomentando a linha 8 e apagando a linha 9 no arquivo app.py (use as configurações do seu banco)

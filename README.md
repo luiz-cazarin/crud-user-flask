@@ -4,6 +4,10 @@ https://flaskcruduser.herokuapp.com/
 
 ## Sobre
 
+Para instalar as dependencias rode o seguinte codigo na pasta raiz do projeto
+
+- ```py -m pip install -r requirements.txt```
+
 As seguintes tecnologias foram usadas
 - [Flask] (https://flask.palletsprojects.com/en/2.1.x/)
 - [Sqlite] (https://www.sqlite.org/index.html)
